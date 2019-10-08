@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D20AE23234D23DE00AB5127 /* AgregarCarroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20AE22234D23DE00AB5127 /* AgregarCarroController.swift */; };
 		3DA6A700234BE10700E28C33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6A6FF234BE10700E28C33 /* AppDelegate.swift */; };
 		3DA6A702234BE10700E28C33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6A701234BE10700E28C33 /* ViewController.swift */; };
 		3DA6A705234BE10700E28C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6A703234BE10700E28C33 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D20AE22234D23DE00AB5127 /* AgregarCarroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarCarroController.swift; sourceTree = "<group>"; };
 		3DA6A6FC234BE10700E28C33 /* ProyectoSegundoParcial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoSegundoParcial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA6A6FF234BE10700E28C33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DA6A701234BE10700E28C33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				3DA6A70B234BE10C00E28C33 /* Info.plist */,
 				3DA6A72D234BE39500E28C33 /* Carro.swift */,
 				3DA6A72F234BE56900E28C33 /* CeldaCarroController.swift */,
+				3D20AE22234D23DE00AB5127 /* AgregarCarroController.swift */,
 			);
 			path = ProyectoSegundoParcial;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D20AE23234D23DE00AB5127 /* AgregarCarroController.swift in Sources */,
 				3DA6A702234BE10700E28C33 /* ViewController.swift in Sources */,
 				3DA6A730234BE56900E28C33 /* CeldaCarroController.swift in Sources */,
 				3DA6A72E234BE39500E28C33 /* Carro.swift in Sources */,

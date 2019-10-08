@@ -10,12 +10,12 @@ import Foundation
 
 class Carro {
     
-    var placa : String
-    var modelo : String
-    var marca : String
-    var año : Int
-    var nombreConductor : String
-    var fotografia : String
+    var placa : String?
+    var modelo : String?
+    var marca : String?
+    var año : Int?
+    var nombreConductor : String?
+    var fotografia : String?
     
     init(placa : String, modelo : String, marca : String, año : Int, nombreConductor : String, fotografia : String) {
         
