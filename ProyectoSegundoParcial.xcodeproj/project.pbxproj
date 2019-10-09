@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D110202234E884400FDA8A4 /* DetalleCarroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D110201234E884400FDA8A4 /* DetalleCarroController.swift */; };
+		3D110204234E8EAA00FDA8A4 /* CargaGasolina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D110203234E8EAA00FDA8A4 /* CargaGasolina.swift */; };
+		3D110206234E8F6E00FDA8A4 /* CeldaCargaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D110205234E8F6E00FDA8A4 /* CeldaCargaController.swift */; };
+		3D110208234E973D00FDA8A4 /* AgregarCargaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D110207234E973D00FDA8A4 /* AgregarCargaController.swift */; };
 		3D20AE23234D23DE00AB5127 /* AgregarCarroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20AE22234D23DE00AB5127 /* AgregarCarroController.swift */; };
 		3DA6A700234BE10700E28C33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6A6FF234BE10700E28C33 /* AppDelegate.swift */; };
 		3DA6A702234BE10700E28C33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6A701234BE10700E28C33 /* ViewController.swift */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D110201234E884400FDA8A4 /* DetalleCarroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleCarroController.swift; sourceTree = "<group>"; };
+		3D110203234E8EAA00FDA8A4 /* CargaGasolina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargaGasolina.swift; sourceTree = "<group>"; };
+		3D110205234E8F6E00FDA8A4 /* CeldaCargaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCargaController.swift; sourceTree = "<group>"; };
+		3D110207234E973D00FDA8A4 /* AgregarCargaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarCargaController.swift; sourceTree = "<group>"; };
 		3D20AE22234D23DE00AB5127 /* AgregarCarroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarCarroController.swift; sourceTree = "<group>"; };
 		3DA6A6FC234BE10700E28C33 /* ProyectoSegundoParcial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoSegundoParcial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA6A6FF234BE10700E28C33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +120,10 @@
 				3DA6A72D234BE39500E28C33 /* Carro.swift */,
 				3DA6A72F234BE56900E28C33 /* CeldaCarroController.swift */,
 				3D20AE22234D23DE00AB5127 /* AgregarCarroController.swift */,
+				3D110201234E884400FDA8A4 /* DetalleCarroController.swift */,
+				3D110203234E8EAA00FDA8A4 /* CargaGasolina.swift */,
+				3D110205234E8F6E00FDA8A4 /* CeldaCargaController.swift */,
+				3D110207234E973D00FDA8A4 /* AgregarCargaController.swift */,
 			);
 			path = ProyectoSegundoParcial;
 			sourceTree = "<group>";
@@ -265,9 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D110206234E8F6E00FDA8A4 /* CeldaCargaController.swift in Sources */,
 				3D20AE23234D23DE00AB5127 /* AgregarCarroController.swift in Sources */,
 				3DA6A702234BE10700E28C33 /* ViewController.swift in Sources */,
+				3D110204234E8EAA00FDA8A4 /* CargaGasolina.swift in Sources */,
 				3DA6A730234BE56900E28C33 /* CeldaCarroController.swift in Sources */,
+				3D110208234E973D00FDA8A4 /* AgregarCargaController.swift in Sources */,
+				3D110202234E884400FDA8A4 /* DetalleCarroController.swift in Sources */,
 				3DA6A72E234BE39500E28C33 /* Carro.swift in Sources */,
 				3DA6A700234BE10700E28C33 /* AppDelegate.swift in Sources */,
 			);

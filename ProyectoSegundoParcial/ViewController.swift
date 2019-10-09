@@ -12,30 +12,30 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     var carros : [Carro] = []
     
+    @IBOutlet weak var tvCarros: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Automoviles"
-        /*
-        carros = [
-        let l1 = Carro(placa: "WWQ098", modelo: "Tsuru", marca: "Nissan", año: 2010, nombreConductor: "Pablo Urias", fotografia: "foto1.jpeg"),
-        let l2 = Carro(placa: "WWQ098", modelo: "Tsuru", marca: "Nissan", año: 2010, nombreConductor: "Pablo Urias", fotografia: "foto1.jpeg"),
-        let l3 = Carro(placa: "WWQ098", modelo: "Tsuru", marca: "Nissan", año: 2010, nombreConductor: "Pablo Urias", fotografia: "foto1.jpeg")
-        ]
-        */
+        //self.title = "Automoviles"
         
-        carros.append(Carro(placa: "1", modelo: "1", marca: "2", año: 23, nombreConductor: "g", fotografia: "foto1.jpeg"))
+        carros.append(Carro(placa: "QWE0934", modelo: "Tsuru", marca: "Nissan", año: 2003, nombreConductor: "Gabriel Arce", fotografia: "foto1.jpeg"))
+        carros.append(Carro(placa: "PJF6982", modelo: "Versa", marca: "Hyunda", año: 2019, nombreConductor: "Paco Cota", fotografia: "foto1.jpeg"))
+        carros.append(Carro(placa: "OPJ0983", modelo: "Cheroki", marca: "Ford", año: 2020, nombreConductor: "Luisa Medina", fotografia: "foto1.jpeg"))
         
         
     }
 
     func numberOfSections(in tableView: UITableView) -> Int {
+        
         return 1
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return carros.count
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -53,10 +53,52 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
 
-    /*func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
         return 181
+        
     }
-    */
+    
+    /*
+     func agregar(contacto: Contacto) {
+     contactos.append(contacto)
+     tvContactos.reloadData()
+     }
+     */
+    
+    func agregarCarro(carro: Carro){
+        
+        carros.append(carro)
+        tvCarros.reloadData()
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        /*
+ 
+         if segue.identifier == "goToEditar" {
+         let destino = segue.destination as? EditarContactoController
+         destino?.contacto = contactos[tvContactos.indexPathForSelectedRow!.row]
+         destino?.callbackActualizarTabla = recargarTabla
+         
+         }
+         if segue.identifier == "goToNuevo" {
+         let destino = segue.destination as? NuevoContactoController
+         destino?.callbackAgregar = agregar
+         
+         }
+         
+         */
+        
+        if segue.identifier == "goToAgregarCarro"{
+        
+            let destino = segue.destination as? AgregarCarroController
+            destino?.callbackAgregarCarro = agregarCarro
+            
+        }
+        
+    }
+    
  
 }
 

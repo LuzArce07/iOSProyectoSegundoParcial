@@ -26,6 +26,12 @@ class Carro {
         self.nombreConductor = nombreConductor
         self.fotografia = fotografia
         
+        /*
+        //DEBE PONERSE ? EN LA DECLARACION Y LA INICIACION
+        if let m_modelo = modelo{
+            self.modelo = m_modelo
+        }*/
+        
     }
     
 }
