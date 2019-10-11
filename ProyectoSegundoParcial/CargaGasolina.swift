@@ -11,6 +11,8 @@ import UIKit
 
 class CargaGasolina {
     
+    //var Data : Carr
+    
     var carga : String?
     var precio : Int?
     

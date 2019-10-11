@@ -79,6 +79,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
     
+    func recargarTabla() {
+        tvCarros.reloadData()
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         /*
  
@@ -101,6 +105,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let destino = segue.destination as? AgregarCarroController
             destino?.callbackAgregarCarro = agregarCarro
             
+        }
+        if segue.identifier == "goToDetallesCarro"{
+            
+            /*
+             if segue.identifier == "goToEditar" {
+             let destino = segue.destination as? EditarContactoController
+             destino?.contacto = contactos[tvContactos.indexPathForSelectedRow!.row]
+             destino?.callbackActualizarTabla = recargarTabla
+             */
+            
+            let destino = segue.destination as? DetalleCarroController
+            destino?.carro = carros[tvCarros.indexPathForSelectedRow!.row]
+            destino?.callbackActualizarTabla = recargarTabla
+            
+            /*
+            let indexPath = tvCarros.indexPath(for: (sender as? UITableViewCell)!)
+            let listDestination = carros[indexPath!.row]
+            */
         }
         
     }
