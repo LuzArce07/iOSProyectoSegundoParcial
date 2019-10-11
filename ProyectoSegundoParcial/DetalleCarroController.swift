@@ -18,8 +18,9 @@ class DetalleCarroController : UIViewController, UITableViewDelegate, UITableVie
     
     override func viewDidLoad() {
         
-        cargas.append(CargaGasolina(carga: "8 Lts", precio: 500))
-        cargas.append(CargaGasolina(carga: "10 Lts", precio: 100))
+        cargas.append(CargaGasolina(carga: "8", precio: 500))
+        cargas.append(CargaGasolina(carga: "10", precio: 100))
+        cargas.append(CargaGasolina(carga: "30", precio: 900))
         
     }
     
@@ -83,5 +84,10 @@ class DetalleCarroController : UIViewController, UITableViewDelegate, UITableVie
         }
         
     }
+    
+    
+    
+    
+    
     
 }

@@ -19,9 +19,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         //self.title = "Automoviles"
         
-        carros.append(Carro(placa: "QWE0934", modelo: "Tsuru", marca: "Nissan", año: 2003, nombreConductor: "Gabriel Arce", fotografia: "foto1.jpeg"))
-        carros.append(Carro(placa: "PJF6982", modelo: "Versa", marca: "Hyunda", año: 2019, nombreConductor: "Paco Cota", fotografia: "foto1.jpeg"))
-        carros.append(Carro(placa: "OPJ0983", modelo: "Cheroki", marca: "Ford", año: 2020, nombreConductor: "Luisa Medina", fotografia: "foto1.jpeg"))
+        carros.append(Carro(placa: "QWE0934", modelo: "Tsuru", marca: "Nissan", año: 2003, nombreConductor: "Gabriel Arce", fotografia: "Tsuru"))
+        carros.append(Carro(placa: "PJF6982", modelo: "Mustang", marca: "Hyunda", año: 2019, nombreConductor: "Paco Cota", fotografia: "Mustang"))
+        carros.append(Carro(placa: "OPJ0983", modelo: "Jeep", marca: "Ford", año: 2020, nombreConductor: "Luisa Medina", fotografia: "Jeep"))
+        carros.append(Carro(placa: "OPJ0983", modelo: "Focus", marca: "Nissan", año: 2020, nombreConductor: "Cesar Lopez", fotografia: "Focus"))
+        carros.append(Carro(placa: "OPJ0983", modelo: "Senda", marca: "Kia", año: 2020, nombreConductor: "Pancha Cota", fotografia: "Senda"))
+        carros.append(Carro(placa: "OPJ0983", modelo: "Minicopper", marca: "Kia", año: 2020, nombreConductor: "Fer Nicolasa", fotografia: "Minicopper"))
+        
+        
+        
         
         
     }
